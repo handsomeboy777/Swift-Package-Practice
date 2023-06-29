@@ -11,4 +11,8 @@ public struct Swift_Package_Practice {
     public static func inputAndOutput(input: String?) {
         print("MyFirstSwiftPackageLibrary input \(String(describing: input)), and I output \(String(describing: input))")
     }
+    
+    public static func sayHello2() {
+        print("MyFirstSwiftPackageLibrary say Hello！")
+    }
 }
